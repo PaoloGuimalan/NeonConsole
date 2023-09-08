@@ -1,0 +1,14 @@
+C:\Users\Aileene\Desktop\Projects\NeonConsole\bin\Release\net7.0\NeonConsole.exe
+C:\Users\Aileene\Desktop\Projects\NeonConsole\bin\Release\net7.0\NeonConsole.deps.json
+C:\Users\Aileene\Desktop\Projects\NeonConsole\bin\Release\net7.0\NeonConsole.runtimeconfig.json
+C:\Users\Aileene\Desktop\Projects\NeonConsole\bin\Release\net7.0\NeonConsole.dll
+C:\Users\Aileene\Desktop\Projects\NeonConsole\bin\Release\net7.0\NeonConsole.pdb
+C:\Users\Aileene\Desktop\Projects\NeonConsole\obj\Release\net7.0\NeonConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aileene\Desktop\Projects\NeonConsole\obj\Release\net7.0\NeonConsole.AssemblyInfoInputs.cache
+C:\Users\Aileene\Desktop\Projects\NeonConsole\obj\Release\net7.0\NeonConsole.AssemblyInfo.cs
+C:\Users\Aileene\Desktop\Projects\NeonConsole\obj\Release\net7.0\NeonConsole.csproj.CoreCompileInputs.cache
+C:\Users\Aileene\Desktop\Projects\NeonConsole\obj\Release\net7.0\NeonConsole.dll
+C:\Users\Aileene\Desktop\Projects\NeonConsole\obj\Release\net7.0\refint\NeonConsole.dll
+C:\Users\Aileene\Desktop\Projects\NeonConsole\obj\Release\net7.0\NeonConsole.pdb
+C:\Users\Aileene\Desktop\Projects\NeonConsole\obj\Release\net7.0\NeonConsole.genruntimeconfig.cache
+C:\Users\Aileene\Desktop\Projects\NeonConsole\obj\Release\net7.0\ref\NeonConsole.dll

@@ -1,0 +1,5 @@
+C:\Users\Aileene\Desktop\Projects\NeonConsole\bin\Release\net7.0\publish\NeonConsole.exe
+C:\Users\Aileene\Desktop\Projects\NeonConsole\bin\Release\net7.0\publish\NeonConsole.dll
+C:\Users\Aileene\Desktop\Projects\NeonConsole\bin\Release\net7.0\publish\NeonConsole.deps.json
+C:\Users\Aileene\Desktop\Projects\NeonConsole\bin\Release\net7.0\publish\NeonConsole.runtimeconfig.json
+C:\Users\Aileene\Desktop\Projects\NeonConsole\bin\Release\net7.0\publish\NeonConsole.pdb
