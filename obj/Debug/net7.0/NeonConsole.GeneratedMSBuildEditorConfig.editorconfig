@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NeonConsole
-build_property.ProjectDir = c:\Users\Aileene\Desktop\Projects\NeonConsole\
+build_property.ProjectDir = C:\Users\paulo\OneDrive\Documents\Projects\Neon\NeonCOnsole\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

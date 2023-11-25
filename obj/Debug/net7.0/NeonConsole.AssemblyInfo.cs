@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NeonConsole")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d58051e74bda5f633f0a2f0dd3089b5ca3cb609")]
 [assembly: System.Reflection.AssemblyProductAttribute("NeonConsole")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NeonConsole")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

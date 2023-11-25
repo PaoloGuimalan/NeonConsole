@@ -9,12 +9,12 @@ namespace NeonConsole
     class NeonConsole{
         public static void Main(string[] args){
 
-            if(args[0] == "Neon"){
+            if(args[0].ToLower() == "neon"){
                 // OpenNeonDesktopReg();
                 CloseWindows();
                 OpenNeonDesktop();
             }
-            else if(args[0] == "Windows"){
+            else if(args[0].ToLower() == "windows"){
                 // OpenWindowsReg();
                 CloseNeonDesktop();
                 OpenWindows();
@@ -28,9 +28,10 @@ namespace NeonConsole
             string NeonExeName = "neonai.exe";
             var assemblyLocation = Assembly.GetEntryAssembly()?.Location;
             var currentPath = Path.GetDirectoryName(assemblyLocation);
+            var finalPath = Path.GetFullPath(Path.Combine(currentPath != null? currentPath : "", @"..\..\.."));
             // var currentPath = "C:\\Users\\Aileene\\AppData\\Local\\Programs\\neonai";
 
-            var finalExecutable = $"{currentPath}\\{NeonExeName}";
+            var finalExecutable = $"{finalPath}\\{NeonExeName}";
 
             Process process = new Process(){
                 StartInfo = new ProcessStartInfo(finalExecutable){
@@ -75,30 +76,30 @@ namespace NeonConsole
             }
         }
 
-        static void OpenNeonDesktopReg(){
-            string NeonExeName = "neonai.exe";
-            var assemblyLocation = Assembly.GetEntryAssembly()?.Location;
-            var currentPath = Path.GetDirectoryName(assemblyLocation);
+        // static void OpenNeonDesktopReg(){
+        //     string NeonExeName = "neonai.exe";
+        //     var assemblyLocation = Assembly.GetEntryAssembly()?.Location;
+        //     var currentPath = Path.GetDirectoryName(assemblyLocation);
 
-            var finalExecutable = $"{currentPath}\\{NeonExeName}";
+        //     var finalExecutable = $"{currentPath}\\{NeonExeName}";
 
-            RegistryKey localMachine = RegistryKey.OpenBaseKey(Microsoft.Win32.RegistryHive.LocalMachine, RegistryView.Registry64);
+        //     RegistryKey localMachine = RegistryKey.OpenBaseKey(Microsoft.Win32.RegistryHive.LocalMachine, RegistryView.Registry64);
 
-            RegistryKey regKey = localMachine.OpenSubKey(@"SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon", true)!;
-            regKey?.SetValue("Shell", finalExecutable, RegistryValueKind.String);
-            regKey?.Close();
+        //     RegistryKey regKey = localMachine.OpenSubKey(@"SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon", true)!;
+        //     regKey?.SetValue("Shell", finalExecutable, RegistryValueKind.String);
+        //     regKey?.Close();
 
-            Console.ReadLine();
-        }
+        //     Console.ReadLine();
+        // }
 
-        static void OpenWindowsReg(){
-            RegistryKey localMachine = RegistryKey.OpenBaseKey(Microsoft.Win32.RegistryHive.LocalMachine, RegistryView.Registry64);
+        // static void OpenWindowsReg(){
+        //     RegistryKey localMachine = RegistryKey.OpenBaseKey(Microsoft.Win32.RegistryHive.LocalMachine, RegistryView.Registry64);
 
-            RegistryKey regKey = localMachine.OpenSubKey(@"SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon", true)!;
-            regKey?.SetValue("Shell", "explorer.exe", RegistryValueKind.String);
-            regKey?.Close();
+        //     RegistryKey regKey = localMachine.OpenSubKey(@"SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon", true)!;
+        //     regKey?.SetValue("Shell", "explorer.exe", RegistryValueKind.String);
+        //     regKey?.Close();
 
-            Console.ReadLine();
-        }
+        //     Console.ReadLine();
+        // }
     }
 }
